@@ -1,0 +1,46 @@
+p {
+	font-family: $readFont;
+	font-size: 1.2rem;
+	line-height: 1.2;
+}
+header a {
+  text-decoration: none;
+}
+a {
+	font-family: $readFont;
+	color: $color-prime;
+}
+a:hover {
+	color: $color-prime;
+}
+
+strong {
+	font-weight:700;
+	font-family: $readFont;
+}
+
+// for hightlighting line line of code in paragraph
+code {
+	font-family: monospace;
+	background: rgba($color-light-gray, 0.5);
+	padding: 4px 6px 6px 6px;
+}
+// for displaying large snippets of code
+pre {
+	display: inline-block;
+	width: 100%;
+	background: rgba($color-gray, 0.8);
+	color: #fff;
+	padding: 30px;
+	font-family: monospace;
+	font-size: 0.8em;
+  white-space: pre;
+  overflow-y: hidden;
+	margin-bottom: 0.5em;
+	/* Replace the & character with &amp;
+		Replace the < character with &lt;
+		Replace the > character with &gt; */
+	&.alt {
+		background: rgba($color-light-gray, 0.8);
+	}
+}

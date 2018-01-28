@@ -1,0 +1,19 @@
+.btn {
+  background-color: transparent;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-weight: bolder;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 1px solid $color-prime;
+  font-size: .7rem;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  transition: all .3s;
+  letter-spacing: 1px;
+  &:hover {
+    background-color: $color-prime;
+    color: #fff;
+  }
+}

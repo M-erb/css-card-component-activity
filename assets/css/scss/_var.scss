@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,300';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700';
+
+// general colors and controls
+$color-black: #323738;
+$color-gray: #595959;
+$color-mid-gray: #B2B2B2;
+$color-light-gray: #F6F6F6;
+$color-difused_gray: rgba(239, 241, 244, 0.8);
+$color-approved: #2ecc71;
+$color-warning: #DE3636;
+
+//  color palette
+$color-prime: #252142;
+$color-sec: #234ba7;
+$color-accent: #dddce4;
+
+// fonts
+$titlesFont: 'Open Sans', sans-serif;
+$readFont: 'Open Sans', sans-serif;
+$controlsFont: $readFont;

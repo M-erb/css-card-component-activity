@@ -1,0 +1,47 @@
+body {
+  
+}
+
+::-moz-selection {\background: lighten($color-sec, 30)}
+::selection {background: lighten($color-sec, 30)}
+
+/*-structure*/
+header {
+	width: 100%;
+	min-height: 100px;
+}
+
+main {
+	width: 100%;
+  min-height: 80vh;
+  display: block;
+}
+
+.page-wrap {
+  width: 90%;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+	position: relative;
+	@media (max-width: 800px) {
+		width: 96%;
+		max-width: 100%;
+	}
+}
+
+.page-section {
+  width: 100%;
+  padding: 5em 0;
+  position: relative;
+  display: block;
+}
+.page-section-lg {
+  width: 100%;
+  padding: 13em 0;
+  position: relative;
+  display: block;
+}
+
+.row {
+  margin-bottom: 60px;
+}
